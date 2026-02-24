@@ -15,7 +15,7 @@ Two independent cost-function approaches are implemented.
 This method minimizes the cost function
 
 $$
-C_{\mathrm{HST}} = 1 - \frac{1}{d^2} \left| \mathrm{Tr}\!\left( V^\dagger U \right) \right|^2
+C_{\mathrm{HST}} = 1 - \frac{1}{d^2} \left| \mathrm{Tr} \left( V^\dagger U \right) \right|^2
 $$
 
 where:
@@ -37,8 +37,7 @@ $$
 A_n = I - 2 \sum_k 
 \left(
 |\chi^{(k)}_{\mathrm{in}}\rangle
-\langle \chi^{(k)}_{\mathrm{in}}|
-\;\otimes\;
+\langle \chi^{(k)}_{\mathrm{in}}| \otimes 
 |\chi^{(k)}_{\mathrm{out}}\rangle
 \langle \chi^{(k)}_{\mathrm{out}}|
 \right)
